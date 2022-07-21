@@ -1,0 +1,17 @@
+{
+  "name": "chat-with-websocket",
+  "version": "1.0.0",
+  "description": "this project will be chatting system with redis. the redis is going to store and read some log for serve users.",
+  "main": "index.ts",
+  "author": "0vollov0",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.ts",
+    "build": "tsc",
+    "build:dev": "tsc -w"
+  },
+  "dependencies": {
+    "ws": "^8.8.1"
+  }
+}
